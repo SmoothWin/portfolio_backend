@@ -1,0 +1,63 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "singularName": "project",
+    "pluralName": "projects",
+    "displayName": "Project",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "projectTitle": {
+      "type": "string"
+    },
+    "projectImage": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "technologies": {
+      "type": "json"
+    },
+    "myRole": {
+      "type": "text"
+    },
+    "projectDifficulties": {
+      "type": "text"
+    },
+    "hostingLocation": {
+      "type": "text"
+    },
+    "mySolution": {
+      "type": "text"
+    },
+    "notableFeatures": {
+      "type": "json"
+    },
+    "repository": {
+      "type": "string"
+    },
+    "demoUrl": {
+      "type": "string"
+    },
+    "hostingLocation2": {
+      "type": "text"
+    },
+    "hostingHelpLink": {
+      "type": "string"
+    },
+    "hostingName": {
+      "type": "string"
+    }
+  }
+}

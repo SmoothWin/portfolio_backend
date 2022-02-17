@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "softskills",
+  "info": {
+    "singularName": "softskill",
+    "pluralName": "softskills",
+    "displayName": "Softskill"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subdescription": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

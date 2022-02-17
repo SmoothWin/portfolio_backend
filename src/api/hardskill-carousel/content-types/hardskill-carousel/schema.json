@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hardskill_carousels",
+  "info": {
+    "singularName": "hardskill-carousel",
+    "pluralName": "hardskill-carousels",
+    "displayName": "HardskillCarousel",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "devIcons": {
+      "type": "json"
+    }
+  }
+}
